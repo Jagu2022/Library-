@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <div class="top-h1">
+          <h1>Library</h1>
+        </div>
+        <div class="top-btn">
+          <button>Login</button>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="bottom-btn">
+          <button class="pop-btn">+ Add Book</button>
+        </div>
+      </div>
+      
+      <div class="pop-main">
+        <div class="pop">
+          <div class="close-btn">
+            <button class="x-btn">❌</button>
+          </div>
+          <h3>Add New Book</h3>
+          <form action="#" method="post">
+            <input type="text" id="title" name="title" placeholder="Title" required/>
+            <input type="text" id="Author" name="Author" placeholder="Author" required/>
+            <input type="number" id="Pages" name="Pages" placeholder="Pages" required/>
+            <div>
+              <label for="read">Have you read it?</label>
+              <input type="checkbox" id="read"/>
+            </div>
+            <button type="submit" class="subBtn">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="books"></div>
+      <footer>
+        <p>copyright © 2023 bharath</p>
+      </footer>
+    </div>
+  </body>
+</html>

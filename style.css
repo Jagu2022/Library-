@@ -1,0 +1,154 @@
+*{
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f0f0f0;
+  height: 95vh;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5vh;
+  width: 100vw;
+  box-shadow: 1px 3px 5px #8888;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.top-h1{
+  padding: 10px;
+  margin: 10px;
+  font-size: 21px;
+}
+.top-btn{
+  padding: 10px;
+  margin: 10px;
+}
+.top-btn button{
+  border: none;
+  background-color: #f0f0f0;
+  padding: 10px 30px 10px 30px;
+  margin-top: 5px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+footer{
+  height: 96vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer p{
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: medium;
+}
+.bottom{
+  margin-top:80px;
+  display: flex;
+  justify-content: center;
+}
+.bottom button{
+  background-color: none;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px 20px 15px 20px;
+  border-radius: 10px;
+}
+.bottom button:hover {
+  background-color: lightgray;
+  
+}
+.pop-main{
+  height: 70vh;
+  width: 100vw;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pop{
+  background-color: #dfdede;
+  border-radius: 10px;
+  height: 400px;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+}
+.pop h3{
+  padding: 10px;
+  margin-bottom: 5px;
+}
+input{
+  border: none;
+  background-color: white;
+  height: 35px;
+  width: 220px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+::placeholder{
+  padding:10px;
+  font-weight: bold;
+}
+.pop-label{
+  width: 100vw;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pop-label p{
+  font-size: 12px;
+  border: 1px solid red;
+  width: 100%;
+  
+}
+.close-btn{
+  width: 250px;
+}
+.close-btn button{
+  position: relative;
+  left:80px;
+  border-radius: 50%;
+  width:30px;
+  height:30px;
+  border: none;
+  
+}
+.close-btn button:hover{
+  background-color: tomato;
+}
+.flex-container{
+  border:3px solid black;
+  text-align: center;
+  margin:20px;
+}
+.flex-main p{
+  font-size: 22px;
+}
+.flex-two{
+  background-color: black;
+  color: white;
+}
+.dltBtn{
+  width: 100px;
+  height: 30px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
